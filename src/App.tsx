@@ -27,6 +27,16 @@ import Exercise17 from "./pages/exercises/Exercise17";
 import Exercise18 from "./pages/exercises/Exercise18";
 import Exercise19 from "./pages/exercises/Exercise19";
 import Exercise20 from "./pages/exercises/Exercise20";
+import Exercise21 from "./pages/exercises/Exercise21";
+import Exercise22 from "./pages/exercises/Exercise22";
+import Exercise23 from "./pages/exercises/Exercise23";
+import Exercise24 from "./pages/exercises/Exercise24";
+import Exercise25 from "./pages/exercises/Exercise25";
+import Exercise26 from "./pages/exercises/Exercise26";
+import Exercise27 from "./pages/exercises/Exercise27";
+import Exercise28 from "./pages/exercises/Exercise28";
+import Exercise29 from "./pages/exercises/Exercise29";
+import Exercise30 from "./pages/exercises/Exercise30";
 
 const queryClient = new QueryClient();
 
@@ -61,6 +71,16 @@ const App = () => (
             <Route path="/exercise/18" element={<Exercise18 />} />
             <Route path="/exercise/19" element={<Exercise19 />} />
             <Route path="/exercise/20" element={<Exercise20 />} />
+            <Route path="/exercise/21" element={<Exercise21 />} />
+            <Route path="/exercise/22" element={<Exercise22 />} />
+            <Route path="/exercise/23" element={<Exercise23 />} />
+            <Route path="/exercise/24" element={<Exercise24 />} />
+            <Route path="/exercise/25" element={<Exercise25 />} />
+            <Route path="/exercise/26" element={<Exercise26 />} />
+            <Route path="/exercise/27" element={<Exercise27 />} />
+            <Route path="/exercise/28" element={<Exercise28 />} />
+            <Route path="/exercise/29" element={<Exercise29 />} />
+            <Route path="/exercise/30" element={<Exercise30 />} />
             
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
