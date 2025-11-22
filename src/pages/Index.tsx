@@ -100,19 +100,9 @@ export default function Index() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent"> 30 Hands-On Exercises</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            Build real projects, see live code, and understand how React works through practical examples. Each exercise includes detailed instructions, complete code, and interactive previews.
+            Group work by Berwa and Gisele
           </p>
-          <div className="flex gap-4 justify-center flex-wrap">
-            <Button size="lg" asChild className="gap-2">
-              <Link to="/exercise/1">
-                Start Learning
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </Button>
-            <Button size="lg" variant="outline" asChild>
-              <a href="#categories">Browse Exercises</a>
-            </Button>
-          </div>
+          
         </div>
       </section>
 

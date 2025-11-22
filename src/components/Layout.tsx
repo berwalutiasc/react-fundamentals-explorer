@@ -165,7 +165,6 @@ export default function AppLayout({ children }: LayoutProps) {
             <div className="hidden md:flex items-center gap-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-1">
                 <div className="w-2 h-2 rounded-full bg-success animate-pulse" />
-                <span>Live Preview</span>
               </div>
             </div>
           </div>
